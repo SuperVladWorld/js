@@ -18,7 +18,7 @@ if (score >= 90 && score <= 100) {
   } else if (score >= 0 && score <= 49) {
     grade = 'F';
   } else {
-    grade = 'Invalid score'; // На случай, если score не в диапазоне от 0 до 100
+    grade = 'Invalid score'; 
   }
   
-  console.log(grade); // Вывод результата
+  console.log(grade); 
